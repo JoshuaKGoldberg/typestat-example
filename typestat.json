@@ -1,7 +1,0 @@
-{
-  "fixes": {
-    "noImplicitAny": true
-  },
-  "include": ["src/index.ts"],
-  "projectPath": "./tsconfig.json"
-}

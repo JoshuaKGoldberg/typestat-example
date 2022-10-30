@@ -1,15 +1,15 @@
 {
   "name": "typestat-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sample project with a few examples of TypeStat mutation fixes.",
   "scripts": {
-    "fixes": "typestat --config ./typestat.json"
+    "fix:noImplicitAny": "typestat --config ./src/noImplicitAny/typestat.json",
+    "fix:incompleteTypes": "typestat --config ./src/incompleteTypes/typestat.json"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Josh Goldberg <npm@joshuakgoldberg.com>",
+  "license": "MIT",
   "dependencies": {
-    "typestat": "^0.3.1"
+    "typestat": "^0.6.2"
   }
 }
